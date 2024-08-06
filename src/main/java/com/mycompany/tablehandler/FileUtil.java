@@ -40,7 +40,7 @@ public class FileUtil {
             }
 
             String line = reader.readLine(); // Read the first line of the CSV file
-            System.out.println("The first line from the CSV file is: " + line); // Output the line to the console
+            System.out.println(line); // Output the line to the console
             return line; // Return the line read from the file
         } catch (Exception e) {
             /**
